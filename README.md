@@ -19,7 +19,7 @@ Install missing dependencies with [npm](https://www.npmjs.com/).
 Run the following commands to open the node console then deploy your contract to the test chain
 
 ```
-siraj:~/hello_world_voting$ node
+Mukul:~/Election$ node
 > Web3 = require('web3')
 > web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 > code = fs.readFileSync('Voting.sol').toString()
